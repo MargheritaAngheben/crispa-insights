@@ -1,0 +1,11 @@
+# Crispa Insights — Netlify config
+# The site is plain HTML at the repo root, so there is no build step.
+[build]
+  publish = "."
+
+# Nice-to-have security headers (optional, safe defaults)
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
