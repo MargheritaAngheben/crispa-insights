@@ -321,7 +321,7 @@ td.b{font-weight:500}td.nn{color:#58749F}
     });
     $('drows').innerHTML=html;
   }
-  ['rev','growth','gross','ebitda'].forEach(function(id){$(id).addEventListener('input',calc)});
+  var _cuFired=false;['rev','growth','gross','ebitda'].forEach(function(id){$(id).addEventListener('input',function(){if(!_cuFired){_cuFired=true;window.dataLayer=window.dataLayer||[];window.dataLayer.push({event:'calculator_used'});}calc();})});
   calc();
 </script></div>
 
