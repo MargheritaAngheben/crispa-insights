@@ -35,6 +35,11 @@ Article slug map (link targets):
 - **Positive frame** throughout — empowering, never "you got this wrong."
 - Currency in **DKK**. Write **"DKK"**, not "krone" (e.g. "each DKK of revenue", not "each krone"),
   a Danish-colleague preference. Use **"math"**, not "maths". **No em-dashes**.
+- **Capitalization after a colon** (US/APA): capitalize the first word after a colon **only when a
+  complete sentence follows** (e.g. *The short answer: Your company is worth what a buyer will pay*).
+  Keep it lowercase when the colon introduces a list, a phrase, or an incomplete clause (e.g.
+  *into one figure: your growth rate, your risk profile and your cash flow*), unless it's a proper
+  noun. Sentence-case headings with a fragment subtitle stay lowercase after the colon.
 - **One canonical data source per series, cited consistently.** For *this* series
   (Valuation Fundamentals), that source is the **SEG 2026 Annual SaaS Report**, so numbers
   never contradict across articles (e.g. median ~5.3x revenue / ~29.3x EBITDA). This is
